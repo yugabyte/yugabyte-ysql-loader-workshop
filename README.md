@@ -6,6 +6,8 @@ If you would like to follow along, there are a few prerequisites you'll need to 
 
 Git: check that git is installed (git --version)
 
+git clone
+
 Source Database:
 You will need a “source” database to access. ysql_loader supported databases are: MySQL, MS SQL, SQL Lite, or PostgreSQL.   For this workshop we will be migrating from a MySQL database.
 
