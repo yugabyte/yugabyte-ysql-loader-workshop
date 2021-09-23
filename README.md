@@ -22,4 +22,4 @@ Review the Pre-Work PDF
 - Yugabyte features added
 
 ### Session Slides
-- see PDF 
+- see Migrating MySQL to YugabyteDB using ysql_loader PDF 
