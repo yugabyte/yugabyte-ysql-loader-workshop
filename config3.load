@@ -1,0 +1,5 @@
+LOAD DATABASE
+        FROM mysql://migwkshp:ybR0cks@35.196.120.43:3306/ml_migratedb
+        INTO postgresql://migwkshp:P8ssw0rd@4e5b7663-c4bb-4a82-83eb-a05ca025c3a7.aws.ybdb.io:5433/ml_migratedb?sslmode=allow
+        WITH batch rows = 500, schema only
+;
