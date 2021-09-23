@@ -4,6 +4,4 @@ LOAD DATABASE
         WITH batch rows = 500
 including only table names matching ~/ml_/, 'orders_orig'
 EXCLUDING TABLE NAMES MATCHING ~<orig>
-CAST
-    type tinyint to smallint drop typemod
 ;
